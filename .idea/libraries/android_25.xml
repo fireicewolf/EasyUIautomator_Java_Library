@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="android-25">
+    <CLASSES>
+      <root url="file://D:/Develop_Tools/Android/sdk/platforms/android-25" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/Develop_Tools/Android/sdk/platforms/android-25" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Develop_Tools/Android/sdk/platforms/android-25" recursive="false" />
+    <jarDirectory url="file://D:/Develop_Tools/Android/sdk/platforms/android-25" recursive="false" type="SOURCES" />
+  </library>
+</component>
