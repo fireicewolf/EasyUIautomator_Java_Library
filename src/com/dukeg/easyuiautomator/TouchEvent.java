@@ -27,21 +27,6 @@ public class TouchEvent {
         Configurator.getInstance().setActionAcknowledgmentTimeout(timeout);
     }
 
-    //Click once element by Object Resource ID
-    public void clickByObjectResourceID(String resourceID, long timeout) {
-        mDevice.wait(Until.findObject(By.res(resourceID)),timeout).click();
-    }
-
-    //Click once element by Object Text
-    public void clickByObjectText(String text, long timeout) {
-        mDevice.wait(Until.findObject(By.text(text)),timeout).click();
-    }
-
-    //Click once element by Object Text
-    public void clickByObjectDesc(String desc, long timeout) {
-        mDevice.wait(Until.findObject(By.desc(desc)),timeout).click();
-    }
-
     //Swipe actions in pixels(5ms per step)
     public boolean swipe(int startX, int startY, int endX, int endY, int steps) {
         return mDevice.swipe(startX, startY, endX, endY, steps);
@@ -74,6 +59,21 @@ public class TouchEvent {
     public boolean scrollRight() {
         return mDevice.swipe(mDevice.getDisplayWidth() / 4, mDevice.getDisplayHeight() / 2,
                 mDevice.getDisplayWidth() * 3 / 4, mDevice.getDisplayHeight() / 2, 100);
+    }
+
+    //Click once element by Object Resource ID
+    public void clickByObjectResourceID(String resourceID, long timeout) {
+        mDevice.wait(Until.findObject(By.res(resourceID)),timeout).click();
+    }
+
+    //Click once element by Object Text
+    public void clickByObjectText(String text, long timeout) {
+        mDevice.wait(Until.findObject(By.text(text)),timeout).click();
+    }
+
+    //Click once element by Object Text
+    public void clickByObjectDesc(String desc, long timeout) {
+        mDevice.wait(Until.findObject(By.desc(desc)),timeout).click();
     }
 
 }

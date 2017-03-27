@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207d917d-3b16-47e7-8115-e0a1b44abf91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/BasicEvent.java" afterPath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/BasicEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/CheckEvent.java" afterPath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/CheckEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/KeyEvent.java" afterPath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/KeyEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/Searchable.java" afterPath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/Searchable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/TouchEvent.java" afterPath="$PROJECT_DIR$/src/com/dukeg/easyuiautomator/TouchEvent.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,12 +32,20 @@
       <file leaf-file-name="TouchEvent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dukeg/easyuiautomator/TouchEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
-              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="717">
+              <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
+                <element signature="method#longClick#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#multiClick#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#swipe#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#drag#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#scrollUp#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#scrollDown#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#scrollLeft#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#scrollRight#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#clickByObjectResourceID#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#clickByObjectText#0;class#TouchEvent#0" expanded="false" />
+                <element signature="method#clickByObjectDesc#0;class#TouchEvent#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -593,12 +596,12 @@
       <workItem from="1490257020140" duration="8624000" />
       <workItem from="1490318182030" duration="11545000" />
       <workItem from="1490346717055" duration="126000" />
-      <workItem from="1490586545119" duration="920000" />
+      <workItem from="1490586545119" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21454000" />
+    <option name="totallyTimeSpent" value="21739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1008,12 +1011,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dukeg/easyuiautomator/TouchEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="717">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="method#longClick#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#multiClick#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#swipe#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#drag#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#scrollUp#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#scrollDown#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#scrollLeft#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#scrollRight#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#clickByObjectResourceID#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#clickByObjectText#0;class#TouchEvent#0" expanded="false" />
+            <element signature="method#clickByObjectDesc#0;class#TouchEvent#0" expanded="false" />
           </folding>
         </state>
       </provider>
